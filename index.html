@@ -15,18 +15,20 @@
     <header>
     <img src="imagens/logo-marca.png" alt="logo da marca da m e c">
 
-   <div class="links">
+    <i id="burguer" class="material-icons"  onclick="clickMenu()" >menu</i>
+
+   <menu id="itens">
        
             <li><a href="#">ofertas</a></li>
             <li><a href="#">compras</a></li>
             <li><a href="#">promoções</a></li>
-   </div>
+   </menu>
 
         <div class="icon">
         <span class="material-icons">shopping_cart</span>
         </div>
     </header>
-    <main>
+    <main class="itens">
        <section class="inicio">
         <!-- aqui tem a imagem do logo -->
         <img src="imagens/logo.png" alt="logo da marca">
@@ -72,5 +74,24 @@
             </div>
        </section>
     </main>
+
+    <script>
+        function mudouTamanho(){
+            if(window.innerWidth >= 430){
+                itens.style.display = 'block'
+            }else{
+                itens.style.display = 'none'
+            }
+    
+        }
+    
+            function clickMenu() {
+                if (itens.style.display == 'block') {
+                    itens.style.display = 'none' 
+                }else {
+                    itens.style.display = 'block'
+                }
+            }
+    </script>
 </body>
 </html>

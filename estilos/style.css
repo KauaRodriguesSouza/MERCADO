@@ -15,8 +15,18 @@ header{
 header img{
     width: 100px;
 }
+i#burguer{
+    display: block;
+    cursor: pointer;
+    color: white;
+    margin: 30px;
+}
+menu{
+    display: none;
+    
+}
 
-header> div.links > li{
+header> menu > li{
     list-style: none;
     display: inline-block;
     margin-top: 30px;
