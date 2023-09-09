@@ -9,23 +9,12 @@
 
 header{
     display: flex;
-    background-color: #034484;
+    background-color: rgb(3, 68, 132);
     justify-content: space-between;
 }
 header img{
     width: 100px;
 }
-i#burguer{
-    display: block;
-    cursor: pointer;
-    color: white;
-    margin: 30px;
-}
-menu{
-    display: none;
-    
-}
-
 header> menu > li{
     list-style: none;
     display: inline-block;
@@ -53,7 +42,7 @@ header > div.icon > span{
 
 }
 section.inicio{
-    background-color: #0557aa;
+    background-color: rgb(3, 68, 132);
     text-align: center;
 }
 section.inicio img{
@@ -61,15 +50,30 @@ section.inicio img{
     height: 500px;
     
 }
-.produtos{
+#produtos{
     display: flex;
     margin: 10px;
     justify-content: space-around;
     flex-wrap: wrap;
-}
-div.itens img{
+    
+}#produtos img{
     width: 160px;
+    height: 160px;
 }
-div.itens{
+#produto{
     width: 160px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px  #0557aa;
+    overflow: hidden;
+}
+#produto:hover{
+    box-shadow: 2px 1px 8px #0557aa;
+    transform: translate(-1px, -1px);
+    transition: 0.10s;
+    transition: transform 0.4s, border .2s;
+}
+#apresentaçao > img{
+    height: 600px;
+    width: 100vw;
+
 }

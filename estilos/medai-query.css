@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 610px) {
+div.p3{
+    display: none;
+    width: 300px;
+    }
+    div.icon{
+        display: none;
+    }
+}

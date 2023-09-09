@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mercado M & C merciaria e padaria </title>
     <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="estilos/tablet.css">
+    <link rel="stylesheet" href="estilos/medai-query.css">
 
     <!-- icones do google -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -13,11 +13,10 @@
 </head>
 <body>
     <header>
+
     <img src="imagens/logo-marca.png" alt="logo da marca da m e c">
 
-    <i id="burguer" class="material-icons"  onclick="clickMenu()" >menu</i>
-
-   <menu id="itens">
+   <menu>
        
             <li><a href="#">ofertas</a></li>
             <li><a href="#">compras</a></li>
@@ -28,70 +27,91 @@
         <span class="material-icons">shopping_cart</span>
         </div>
     </header>
-    <main class="itens">
+
+    <main>
+        <!-- apresentaçao da marca -->
        <section class="inicio">
         <!-- aqui tem a imagem do logo -->
         <img src="imagens/logo.png" alt="logo da marca">
        </section>
 
+       <!-- aqui onde estao os produtos  -->
        <section>
-            <div class="produtos">
-                <div>
-                    <img src="imagens/produto.png" alt="">
-                    <p>televisao 50polegadas</p>
+
+            <div id="produtos" >
+
+                <div class="p1" id="produto">
+                    <a href="#"><img src="imagens/maquina-de-lavar.jfif" alt=""></a>
+
+                    <a href="#">
+                        <p>maquina de lavar roupas <br>
+                        por apenas R$ 1000,00</p>
+                    </a>
+
                 </div>
 
-                <div>
+                <div class="p2" id="produto">
                     
-                        <img src="imagens/produto.png" alt="">
-                        <p>televisao 50polegadas</p>
+                        <a href="#"><img src="imagens/refrigerante.jpg_v=1780109511" alt=""></a>
+
+                        <a href="#">
+                            <p>refrigerante coca-cola por <br>
+                                apenas R$ 10,99
+                            </p>
+                        </a>
+
                 </div>
 
-                <div>
+                <div class="p3" id="produto">
                    
-                        <img src="imagens/produto.png" alt="">
-                        <p>televisao 50polegadas</p>
+                        <a href=""><img src="imagens/televisao.png" alt=""></a>
+
+                        <a href="">
+                            <p>televisao 50polegadas por <br>
+                            apenas R$ 2000,00</p>
+                        </a>
                 </div>
 
-                <div>
-    
-                        <img src="imagens/produto.png" alt="">
-                        <p>televisao 50polegadas</p>
+        
+    </div>
+
+    <div id="produtos">
+
+                <div class="p1" id="produto">
+                        <a href=""><img src="imagens/bolacha.webp" alt=""></a>
+                        <a href="#">
+                            
+                            <p>bolacha trakinas por <br>
+                            apenas R$ 1,95</p>
+                        </a>
+
                 </div>
 
-                <div>
+                <div class="p2" id="produto">
     
-                    <img src="imagens/produto.png" alt="">
-                    <p>televisao 50polegadas</p>
-            </div>
+                    <a href="#"><img src="imagens/arroz.jpg" alt=""></a>
+                    <a href="#">
+                        <p>arroz camil parbolizado por <br>
+                            apenas R$ 20,00 </p>
+                    </a>
+                </div>
 
-            <div>
-    
-                <img src="imagens/produto.png" alt="">
-                <p>televisao 50polegadas</p>
-        </div>
-
+                <div class="p3" id="produto">
+        
+                    <a href="#"><img src="imagens/celular.webp" alt=""></a>
+                    
+                    <a href="#">
+                        <p>celular samsung a55 por <br>
+                        apenas R$1500,00 </p>
+                    </a>
+                </div>
             </div>
        </section>
-    </main>
 
-    <script>
-        function mudouTamanho(){
-            if(window.innerWidth >= 430){
-                itens.style.display = 'block'
-            }else{
-                itens.style.display = 'none'
-            }
-    
-        }
-    
-            function clickMenu() {
-                if (itens.style.display == 'block') {
-                    itens.style.display = 'none' 
-                }else {
-                    itens.style.display = 'block'
-                }
-            }
-    </script>
+
+       <section id="apresentaçao">
+            <img src="imagens/logo-celular-10.png" alt="">
+       </section>
+    </main>
 </body>
 </html>
