@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 667px) {
 div.p3{
     display: none;
     width: 300px;
@@ -8,4 +8,18 @@ div.p3{
     div.icon{
         display: none;
     }
+    menu{
+        margin-right: 50px;
+    }
 }
+    @media screen and (min-width: 678px) and (max-width: 992px) {
+        .img1{
+          display: none;  
+        }
+        .img2{
+
+            height: 570px;
+            display:block;
+            padding: 20px;
+        }
+    }
