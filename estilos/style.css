@@ -10,20 +10,23 @@
 header{
     display: flex;
     background-color: #034484;
+    justify-content: space-between;
 }
 header img{
     width: 100px;
 }
-header> li{
+
+header> div.links > li{
     list-style: none;
-    padding: 0px 10px;
-    margin-top: 34px;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 5px;
+
 }
 header a {
     text-decoration: none;
     color: white;
     font-size: 1.1em;
-
 }
 header a:hover{
     padding: 5px;
@@ -32,9 +35,21 @@ header a:hover{
     border-radius: 5px;
     transition: 0.4s;
 }
+header > div.icon > span{
+    font-size: 2.3em;
+    width: 50px;
+    margin: 30px 0px;
+    color: white;
+
+}
+section.inicio{
+    background-color: #0557aa;
+    text-align: center;
+}
 section.inicio img{
-    width: 100vw;
-    height: 100vh;
+    width: 90%;
+    height: 500px;
+    
 }
 .produtos{
     display: flex;
