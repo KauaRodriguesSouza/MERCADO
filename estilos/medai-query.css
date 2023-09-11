@@ -12,14 +12,16 @@ div.p3{
         margin-right: 50px;
     }
 }
-    @media screen and (min-width: 678px) and (max-width: 992px) {
+    @media screen and (min-width: 765px) and (max-width: 1000px) {
+        section.inicio{
+            background: url("../imagens/fundo-junto.jpg");
+            background-size: cover;
+
+            width: 100%;
+            height: 500px;
+        }
         .img1{
           display: none;  
         }
-        .img2{
 
-            height: 570px;
-            display:block;
-            padding: 20px;
-        }
     }
