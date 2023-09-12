@@ -1,41 +1,46 @@
 @charset "UTF-8";
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
+header {
     display: flex;
     background-color: #0d3963;
     justify-content: space-between;
 }
-header img{
+
+header img {
     width: 100px;
 }
-header> menu > li{
+
+header>menu>li {
     list-style: none;
     display: inline-block;
     margin-top: 30px;
     padding: 5px;
 
 }
+
 header a {
     text-decoration: none;
     color: white;
-    font-size: 0.8em;
-    font-weight: bolder;
+    font-size: 1em;
+    font-weight: bold;
 }
-header a:hover{
+
+header a:hover {
     padding: 5px;
     text-decoration: underline;
     background-color: #0557aa;
     border-radius: 5px;
     transition: 0.4s;
 }
-header > div.icon > span{
+
+header>div.icon>span {
     cursor: pointer;
     font-size: 2.3em;
     width: 50px;
@@ -43,66 +48,82 @@ header > div.icon > span{
     color: white;
 
 }
-section.inicio{
+
+section.inicio {
     background: url("../imagens/Sem\ Título-1.jpg") no-repeat;
     background-size: cover;
     width: 100%;
 }
- .img1{
-    width: 100%;
-    height: 450px;
+
+.img1 {
+    display: none;
 }
-.img2{
-   display: none;
+
+.img2 {
+    display: none;
 }
-#produtos{
+.img3{
+    display: block;
+}
+
+#produtos {
     display: flex;
     margin: 10px;
     justify-content: space-around;
     flex-wrap: wrap;
-    
-}#produtos img{
+
+}
+
+#produtos img {
     width: 150px;
     height: 160px;
     padding: 10px;
 }
-#produto{
+
+#produto {
     width: 200px;
     margin: 20px 10px 0px 10px;
     border-radius: 10px;
     border: 2px solid #0557aa;
     overflow: hidden;
 }
-#produto:hover{
+
+#produto:hover {
     box-shadow: 2px 1px 8px #0557aa;
     transform: translate(-1px, 1px);
     transition: 0.10s;
     transition: transform 0.4s, border .2s;
 }
-#apresentaçao > img{
+
+#apresentaçao>img {
     height: 600px;
     width: 100vw;
 
 }
-#produtos  a{
+
+#produtos a {
     text-decoration: none;
     color: #0557aa;
     font-size: 1.1em;
     padding: 10px;
 
 }
-#produtos p{
+
+#produtos p {
     padding: 5px;
 }
-.preço{
+
+.preço {
     font-size: 1.4em;
     text-align: center;
 }
-#apresentaçao-tv{
+
+#apresentaçao-tv {
     margin-top: 45px;
     height: 350px;
 }
-#apresentaçao-tv img{
+
+#apresentaçao-tv img {
     width: 100%;
 
 }
