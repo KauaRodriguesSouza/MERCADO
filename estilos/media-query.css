@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 @media screen and (max-width: 695px) {
 div.p3{
     display: none;
@@ -11,6 +12,21 @@ div.p3{
     menu{
         margin-right: 50px;
     }
+    section #produto{
+            width: 140px;
+            flex-wrap: wrap;
+        }
+        section #produto{
+            width: 150px;
+            height: 300px;
+
+            flex-wrap: nowrap;
+
+        }section #produto img{
+            margin: auto;
+            width: 160px;
+            padding-right: 30px;
+        }
 }
     @media screen and (min-width: 700px) and (max-width: 1000px) {
         section.inicio{
@@ -22,5 +38,6 @@ div.p3{
         .img1{
           display: none;  
         }
+        
 
     }

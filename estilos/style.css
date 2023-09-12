@@ -43,7 +43,9 @@ header > div.icon > span{
 
 }
 section.inicio{
-    background: url("../imagens/Sem\ Título-1.jpg") fixed;
+    background: url("../imagens/Sem\ Título-1.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
 }
  .img1{
     width: 100%;
@@ -84,7 +86,7 @@ section.inicio{
 #produtos  a{
     text-decoration: none;
     color: #0557aa;
-    font-size: 1.3em;
+    font-size: 1.1em;
     padding: 10px;
 
 }
