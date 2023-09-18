@@ -3,6 +3,11 @@
 
 
 @media screen and (min-width: 375px) and (max-width: 700px) {
+    section.inicio {
+        background: url("../imagens/fundo-2.jpg");
+        background-size: cover;
+    }
+
     .img1 {
         display: block;
         width: 360px;
@@ -42,8 +47,7 @@
     }
 
     div.p3 {
-        display: none;
-        width: 300px;
+        display:block;
     }
 
     menu {
@@ -51,20 +55,19 @@
     }
 
     section #produto {
+        margin-top: 50px;
         width: 140px;
         flex-wrap: wrap;
     }
 
     section #produto {
         width: 150px;
-        height: 300px;
 
         flex-wrap: nowrap;
 
     }
 
     section #produto img {
-        margin: auto;
         width: 160px;
         padding-right: 30px;
     }
